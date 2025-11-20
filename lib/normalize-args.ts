@@ -1,6 +1,7 @@
 import type { Options, ParserOptions } from "./options.js";
 import { getNewOptions } from "./options.js";
 import type { JSONSchema, SchemaCallback } from "./index.js";
+import JSON5 from "json5";
 
 // I really dislike this function and the way it's written. It's not clear what it's doing, and it's way too flexible
 // In the future, I'd like to deprecate the api and accept only named parameters in index.ts
@@ -54,7 +55,7 @@ export function normalizeArgs<S extends object = JSONSchema, O extends ParserOpt
 
   if (!options.mutateInputSchema && typeof schema === "object") {
     // Make a deep clone of the schema, so that we don't alter the original object
-    schema = JSON.parse(JSON.stringify(schema));
+    schema = JSON5.parse(JSON5.stringify(schema));
   }
 
   return {

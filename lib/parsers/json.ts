@@ -1,6 +1,7 @@
 import { ParserError } from "../util/errors.js";
 import type { FileInfo } from "../types/index.js";
 import type { Plugin } from "../types/index.js";
+import JSON5 from "json5";
 
 export default {
   /**
@@ -40,7 +41,7 @@ export default {
         return; // This mirrors the YAML behavior
       } else {
         try {
-          return JSON.parse(data);
+          return JSON5.parse(data);
         } catch (e: any) {
           if (this.allowBOM) {
             try {
@@ -48,7 +49,7 @@ export default {
               const firstCurlyBrace = data.indexOf("{");
               // remove any characters before the first curly brace
               data = data.slice(firstCurlyBrace);
-              return JSON.parse(data);
+              return JSON5.parse(data);
             } catch (e: any) {
               throw new ParserError(e.message, file.url);
             }
