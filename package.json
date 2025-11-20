@@ -19,6 +19,9 @@
     "test:update": "vitest -u",
     "test:watch": "vitest -w"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "json",
     "schema",
