@@ -12,40 +12,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apidevtools/json-schema-ref-parser@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@apidevtools/json-schema-ref-parser@workspace:."
-  dependencies:
-    "@eslint/compat": "npm:^2.0.0"
-    "@eslint/js": "npm:^9.39.1"
-    "@types/eslint": "npm:^9.6.1"
-    "@types/js-yaml": "npm:^4.0.9"
-    "@types/json-schema": "npm:^7.0.15"
-    "@types/node": "npm:^24"
-    "@typescript-eslint/eslint-plugin": "npm:^8.47.0"
-    "@typescript-eslint/parser": "npm:^8.47.0"
-    "@vitest/coverage-v8": "npm:^4.0.10"
-    cross-env: "npm:^10.1.0"
-    eslint: "npm:^9.39.1"
-    eslint-config-prettier: "npm:^10.1.8"
-    eslint-plugin-import: "npm:^2.32.0"
-    eslint-plugin-prettier: "npm:^5.5.4"
-    eslint-plugin-promise: "npm:^7.2.1"
-    eslint-plugin-unused-imports: "npm:^4.3.0"
-    globals: "npm:^16.5.0"
-    js-yaml: "npm:^4.1.1"
-    jsdom: "npm:^27.2.0"
-    json5: "npm:^2.2.3"
-    prettier: "npm:^3.6.2"
-    rimraf: "npm:^6.1.0"
-    typescript: "npm:^5.9.3"
-    typescript-eslint: "npm:^8.47.0"
-    vitest: "npm:^4.0.10"
-  peerDependencies:
-    "@types/json-schema": ^7.0.15
-  languageName: unknown
-  linkType: soft
-
 "@asamuzakjp/css-color@npm:^4.0.3":
   version: 4.0.5
   resolution: "@asamuzakjp/css-color@npm:4.0.5"
@@ -567,6 +533,40 @@ __metadata:
   checksum: 10c0/4b30ec8cd56c5fd9a661f088230af01e0c1a3888d11ffb6b47639700f71225be21d1f7e168048d6d4f9449207b978a235c07c8f15c07705685d16dc06280e9d9
   languageName: node
   linkType: hard
+
+"@mshibanami-org/json-schema-ref-parser@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@mshibanami-org/json-schema-ref-parser@workspace:."
+  dependencies:
+    "@eslint/compat": "npm:^2.0.0"
+    "@eslint/js": "npm:^9.39.1"
+    "@types/eslint": "npm:^9.6.1"
+    "@types/js-yaml": "npm:^4.0.9"
+    "@types/json-schema": "npm:^7.0.15"
+    "@types/node": "npm:^24"
+    "@typescript-eslint/eslint-plugin": "npm:^8.47.0"
+    "@typescript-eslint/parser": "npm:^8.47.0"
+    "@vitest/coverage-v8": "npm:^4.0.10"
+    cross-env: "npm:^10.1.0"
+    eslint: "npm:^9.39.1"
+    eslint-config-prettier: "npm:^10.1.8"
+    eslint-plugin-import: "npm:^2.32.0"
+    eslint-plugin-prettier: "npm:^5.5.4"
+    eslint-plugin-promise: "npm:^7.2.1"
+    eslint-plugin-unused-imports: "npm:^4.3.0"
+    globals: "npm:^16.5.0"
+    js-yaml: "npm:^4.1.1"
+    jsdom: "npm:^27.2.0"
+    json5: "npm:^2.2.3"
+    prettier: "npm:^3.6.2"
+    rimraf: "npm:^6.1.0"
+    typescript: "npm:^5.9.3"
+    typescript-eslint: "npm:^8.47.0"
+    vitest: "npm:^4.0.10"
+  peerDependencies:
+    "@types/json-schema": ^7.0.15
+  languageName: unknown
+  linkType: soft
 
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
