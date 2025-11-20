@@ -35,6 +35,7 @@ __metadata:
     globals: "npm:^16.5.0"
     js-yaml: "npm:^4.1.1"
     jsdom: "npm:^27.2.0"
+    json5: "npm:^2.2.3"
     prettier: "npm:^3.6.2"
     rimraf: "npm:^6.1.0"
     typescript: "npm:^5.9.3"
@@ -2994,6 +2995,15 @@ __metadata:
   bin:
     json5: lib/cli.js
   checksum: 10c0/9ee316bf21f000b00752e6c2a3b79ecf5324515a5c60ee88983a1910a45426b643a4f3461657586e8aeca87aaf96f0a519b0516d2ae527a6c3e7eed80f68717f
+  languageName: node
+  linkType: hard
+
+"json5@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "json5@npm:2.2.3"
+  bin:
+    json5: lib/cli.js
+  checksum: 10c0/5a04eed94810fa55c5ea138b2f7a5c12b97c3750bc63d11e511dcecbfef758003861522a070c2272764ee0f4e3e323862f386945aeb5b85b87ee43f084ba586c
   languageName: node
   linkType: hard
 
